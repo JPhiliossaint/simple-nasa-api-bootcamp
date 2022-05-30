@@ -5,8 +5,20 @@
 /* Box Model Hack */
 *{
   box-sizing: border-box;
-}
+  text-align: center;
 
+}
+body{
+  background-image: url(./../img/astrobg.png);
+  background-size: cover;
+  color: white;
+  font-family: 'Skranji', cursive;
+}
+button{
+  color: white;
+  background-color: black;
+  border: 3px splid white;
+}
 /******************************************
 /* LAYOUT
 /*******************************************/
